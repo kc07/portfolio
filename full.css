@@ -528,6 +528,8 @@ textarea {
 
     .h-icons {
         display: block;
+        font-size: 5rem;
+        margin-right: 1.6rem;
         z-index: 3;
     }
 
@@ -569,8 +571,5 @@ textarea {
     .form{
         width: 80%;
     }
-    .h-icons{
-        font-size: 5rem;
-        margin-right: 2rem;
-    }
+    
 }
