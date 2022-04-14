@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Lato&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.4%;
+}
+
+header {
+    position: relative;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    word-spacing: 1rem;
+    letter-spacing: .4rem;
+}
+
+h2,
+h3 {
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-family: 'Merriweather Sans', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+    display: inline-block;
+}
+
+.common {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 4.1rem;
+    color: rgb(97, 2, 199);
+    ;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+    position: relative;
+}
+
+.navList {
+    display: flex;
+    gap: 4rem;
+    padding: 0 4rem;
+}
+
+.navList li a:hover {
+    color: rgb(97, 2, 199);
+    transition: all .2s linear;
+}
+
+.h-icons {
+    font-size: 3.5rem;
+    display: none;
+
+}
+
+.section {
+    background: rgba(158, 157, 157, 8%);
+
+}
+
+.section-hero {
+    padding: 4rem 3rem;
+}
+
+.grid {
+    max-width: 110rem;
+    margin: auto;
+    gap: 4rem;
+    padding: 4rem 2.8rem;
+}
+
+.grid-two-coloms {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+}
+
+.grid-three-coloms {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.para {
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.para2 {
+    font-size: 1.6rem;
+    margin-top: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    word-spacing: .4rem;
+    letter-spacing: .2em;
+    position: relative;
+}
+
+.para3 {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    margin-top: 1.5rem;
+    width: 70%;
+    font-weight: 500;
+}
+
+.common-para {
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 1.4rem;
+    position: relative;
+}
+
+.common-para::before {
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: .3rem;
+    width: 35%;
+    background-color: rgb(107, 22, 204);
+}
+
+.common-para::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    background-color: rgb(107, 22, 204);
+}
+
+.lefsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.righsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.righsection img {
+    width: 100%;
+    box-shadow: -1rem -1rem 0 0 rgb(107, 22, 204);
+    height: 30rem;
+}
+
+.leftsection2 img {
+    width: 100%;
+    height: 80%;
+    box-shadow: -10px -10px rgb(107, 22, 204);
+}
+
+.biodata {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.bio-progress {
+    width: 100%;
+    height: .5rem;
+    background: rgb(228, 233, 228);
+    border-radius: .6rem;
+    margin-top: .8rem;
+    position: relative;
+}
+
+.bio-para {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-top: 4rem;
+    line-height: 2.6rem;
+}
+
+.bio-paras {
+    position: relative;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.bio-progress::before {
+    content: "";
+    border-radius: .5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: inherit;
+    background-color: rgb(114, 57, 179);
+}
+
+.seven::before {
+    content: "";
+    border-radius: .5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: inherit;
+    background-color: rgb(119, 21, 231);
+}
+
+.eight::before {
+    content: "";
+    border-radius: .5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: inherit;
+    background-color: rgb(119, 21, 231);
+}
+
+.six::before {
+    content: "";
+    border-radius: .5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: inherit;
+    background-color: rgb(119, 21, 231);
+}
+
+.percentage {
+    position: absolute;
+    font-size: 1.9rem;
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    top: 1.6rem;
+    background: rgb(103, 18, 199);
+    color: white;
+    left: 76%;
+}
+
+.percentage::after {
+    content: "";
+    position: absolute;
+    top: -1.8rem;
+    left: 30%;
+    width: 0;
+    height: 0;
+    border: .9rem solid rgba(240, 240, 240, 0);
+    border-bottom-color: rgb(46, 0, 83);
+}
+
+.one {
+    position: absolute;
+    left: 71%
+}
+
+.two {
+    position: absolute;
+    left: 56%
+}
+
+.four {
+    position: absolute;
+    left: 71%
+}
+
+.five {
+    position: absolute;
+    left: 56%;
+}
+
+.pro {
+    width: 50%;
+}
+
+.pro-para {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-top: 3rem;
+    line-height: 2.6rem;
+    width: 50%;
+}
+
+.projects {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.projects img {
+    width: 100%;
+    border-radius: .2rem;
+}
+
+.img-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transform: translateY(100%);
+    background: linear-gradient(rgb(29, 3, 163), rgb(82, 9, 124));
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s linear;
+}
+
+.projects:hover>.img-overlay {
+    transform: translateY(0);
+    opacity: .7;
+    border-radius: .2rem;
+
+}
+
+.img-overlay a {
+    color: white;
+    font-size: 2rem;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.helo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form {
+    width: 40%;
+    margin: auto;
+}
+
+.section-image {
+    background: url(/fullimage/pexels-marcelo-chagas-2183773.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.section-image .grid h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: .4rem;
+    position: relative;
+    z-index: 1;
+}
+
+.section-image .overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(47, 58, 211), rgb(90, 13, 153));
+    opacity: .4;
+}
+
+.section-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding: 3rem 2rem;
+}
+
+.section-form input,
+textarea {
+    padding: .2rem .6rem;
+    border: .2rem solid rgb(23, 23, 26);
+    font-size: 1.7rem;
+    font-weight: 500;
+    width: 100%;
+}
+
+.section-form input:focus {
+    outline: none;
+    border: 1px solid rgb(144, 144, 218);
+}
+
+.section-form textarea:focus {
+    outline: none;
+    border: 1px solid rgb(144, 144, 218);
+}
+
+.form-gap {
+    gap: 4rem;
+}
+
+.section-form input[type="submit"] {
+    width: 30%;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.7rem;
+    border-radius: .4rem;
+    border: none;
+    background: linear-gradient(rgba(47, 58, 211, .5), rgba(57, 4, 100, 0.5));
+}
+
+.grid-four-colom {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.section-footer {
+    background: linear-gradient( to left,rgba(3, 14, 167, 0.699), rgba(88, 11, 151, 0.925));
+    margin-top: 2rem;
+    color: rgb(10, 6, 6);
+}
+.section-footer a,li,p,h3{
+        font-family: sans-serif;
+        line-height: 3.4rem;
+        font-size: 2rem;
+        font-weight: 500;
+        text-transform: capitalize;
+}
+.section-footer h3{
+     border-bottom: 1px solid rgb(37, 35, 35);
+     margin-bottom: 1.2rem;
+
+}
+.cont-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-icons {
+    text-align: center;
+}
+
+.footer-icons a {
+    color: white;
+    display: inline-block;
+    margin: 1.2rem;
+    font-size: 3rem;
+}
+
+.copy {
+    text-align: center;
+    font-size: 1.rem;
+    font-family: 'Lato', sans-serif;
+}
+
+@media screen and (max-width:780px) {
+    html{
+        font-size: 52.4%;
+    }
+    .grid-two-coloms {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-three-coloms {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .grid-four-colom {
+        grid-template-columns: 1fr;
+    }
+
+    .leftsection2 {
+        width: 100%;
+        height: 500px;
+        margin: auto;
+    }
+
+    .leftsection2 img {
+        width: 100%;
+        height: 100%;
+        box-shadow: -10px -10px rgb(107, 22, 204);
+    }
+
+    .h-icons {
+        display: block;
+        z-index: 3;
+    }
+
+    .h-icons .close {
+        display: none;
+    }
+
+    .navBar {
+        height: 100vh;
+        background: rgb(181, 125, 219);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        z-index: 1;
+        transform: translateX(100%);
+
+    }
+
+    .navList {
+        display: flex;
+        flex-direction: column;
+        margin: 6rem 0;
+        padding: 1rem 1.1rem;
+    }
+
+    .navList li {
+        border-bottom: 2px solid rgba(134, 130, 130, 0.3);
+    }
+
+    .navList li a {
+        color: rgb(12, 11, 11);
+    }
+
+    .responsive-menu {
+        transform: translateX(0%);
+        transition: all .3s linear;
+    }
+    .form{
+        width: 80%;
+    }
+}
