@@ -499,7 +499,7 @@ textarea {
 
 @media screen and (max-width:780px) {
     html{
-        font-size: 52.4%;
+        font-size: 56.6%;
     }
     .grid-two-coloms {
         grid-template-columns: 1fr;
