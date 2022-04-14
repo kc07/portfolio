@@ -569,4 +569,8 @@ textarea {
     .form{
         width: 80%;
     }
+    .h-icons{
+        font-size: 5rem;
+        margin-right: 2rem;
+    }
 }
