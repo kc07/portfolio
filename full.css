@@ -385,7 +385,7 @@ a {
 }
 
 .section-image {
-    background: url(fullimage/pexels-marcelo-chagas-2183773.jpg);
+    background: url(fullimage/pexels-marcelo-chagas-2183773\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
